@@ -7,4 +7,9 @@ rgb(21, 12, 104);
  lightgray;
  yellow;
 */
-
+.heading {
+    margin-left: 500px;
+    background-color:yellow ;
+    width: 100px;
+    padding: 5px;
+}
