@@ -8,8 +8,15 @@ rgb(21, 12, 104);
  yellow;
 */
 .heading {
-    margin-left: 500px;
-    background-color:yellow ;
-    width: 100px;
-    padding: 5px;
+    margin-left: 600px;
+    background-color: hotpink ;
+    color: black;
+    width: 90px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
+
+
+
+     
