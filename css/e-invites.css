@@ -1,0 +1,26 @@
+.wedding-card{
+        
+    height: 400px;
+    width: 300px;
+    border: solid brown 1px;
+ /* border-radius: 20px 20px 20px 20px; */
+    display: inline-block;
+    margin-left: 120px;
+    margin-right: -13px;
+    margin-top: 30px;
+   }
+
+   .wedding-img{
+  /*  border-radius: 20px 20px 0px 0px; */
+      height: 300px;
+      width: 300px;
+   }
+
+   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+     .couple-name{
+    margin-left: 50px;
+    font-family: 'Dancing Script', cursive;
+    color: brown;
+    font-size: 25px;
+  
+   }
