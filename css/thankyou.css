@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Style+Script&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8d5dd;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #e094bf;
+    padding: 20px;
+    width: 450px;
+    text-align: center;
+    background: url(./../images/ab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+
+    margin-bottom: 15px;
+    font-family: 'Style Script';
+    font-size: 50px ;
+    color: rgb(0, 0, 0);
+}
