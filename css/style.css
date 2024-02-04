@@ -8,3 +8,7 @@ rgb(21, 12, 104);
  yellow;
 */
 
+*{
+    margin: 0;
+    padding: 0;
+}
