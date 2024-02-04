@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="./../css/purchase.css">
+</head>
+
+<body>
+    <div class="container">
+        <i class="fa-brands fa-cc-visa fa-beat-fade" style="color: #3b75c6; font-size: 100px; margin: 20px;"></i>
+        <form>
+            <div class="input-group">
+                <label for="cardNumber">CARD NUMBER</label>
+                <input type="text" id="cardNumber" placeholder="Enter Card Number" required>
+            </div>
+
+            <div class="input-group">
+                <label for="nameOnCard">NAME ON CARD</label>
+                <input type="text" id="nameOnCard" placeholder="Enter Name on Card" required>
+            </div>
+
+            <div class="input-group">
+                <label for="expiryMM">EXPIRY MM</label>
+                <input type="date" id="expiryMM" placeholder="MM" maxlength="2" required>
+            </div>
+
+            <div class="input-group">
+                <label for="expiryYY">EXPIRY YY</label>
+                <input type="date" id="expiryYY" placeholder="YY" maxlength="2" required>
+            </div>
+
+            <div class="input-group">
+                <label for="cvv">CVV</label>
+                <input type="number" id="cvv" placeholder="Enter CVV" maxlength="3" required>
+            </div>
+
+
+            <a href="thankyou.html" class="button"> Make Payment</a>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/76e19bf5a7.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
