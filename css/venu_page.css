@@ -1,6 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+.heading {
+   text-align: center;
+   margin-top: 30px;
+   padding-top: 30px;
+   font-weight: 700;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-decoration: none;
+   font-style: normal;
+   font-size: 40px;
+   color: #e6004c;
+}
+.venu-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+ 
+
+}
 .img-1 {
-    height: 300px;
-    margin: 20px;
-    box-shadow: 0 0 2px 4px gray;
+   width: 80%;
+   margin-left: 10%;
+   margin-top: 5%;
+   height: 200px;
+   border-radius: 20px;
     
 }
+ .cards {
+    width: 350px;
+    box-shadow: 0 0 2px 2px gray;
+    border-radius: 30px;
+    background-color: #fff0e6;
+    position: relative;
+ }
+
+ .hedding-1 {
+    text-align: center;
+    color: #e6004c;
+    font-family: 'Lora', serif;
+    padding-top: 10px;
+ }
+ .desc-1 {
+    text-align: center;
+    color: #751aff;
+    font-size: 20px;
+    font-family: monospace;
+    padding-top: 15px;
+ }
+ .button-1 {
+    background-color: #e60073;
+    color: white;
+    position: sticky;
+    padding: 10px 30px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+ }
+ .button-1:hover {
+    border: 1px solid black;
+    border-radius: 30px;
+    color: #ffff99;
+    box-shadow: 0 1px 3px 5px #ffff66;
+    transition: 0.5s;
+    
+ }
+ .cards:hover {
+   transform: translateY(-15px);
+   transition: 0.5s;
+ }
+ .card {
+   margin-bottom: 20px;
+   margin-top: 20px;
+ }
+  @media screen and (min-width:300px) and (max-width:600px){
+   .hedding-1 {
+      text-align: center;
+      font-size: 25px;
+   }
+   }
+   @media screen and (min-width:300px) and (max-width:600px){
+      .desc-1 {
+         font-size: 20px;
+      }
+   }
+   @media screen and (min-width:300px) and (max-width:600px){
+      .button-1 {
+         display: block;
+         margin: 5px auto;
+         font-weight: 200;
+         font-family: Arial, Helvetica, sans-serif;
+         text-align: center;
+      }
+   }
+    
