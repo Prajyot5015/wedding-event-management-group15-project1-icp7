@@ -37,12 +37,12 @@
   font-size: 20px;
   color: #fff;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 800;
   margin-left: 20px;
 }
 .navbar a:hover,
 .navbar a.active {
-  color: blue;
+  color: #0ef;
 }
 
 #check {
@@ -99,7 +99,7 @@
 .home-container {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url("./../images/back-1.jpg");
+    url("./../images/bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -114,7 +114,7 @@
   font-weight: 600;
 }
 .home-title p {
-  font-size: 16px;
+  font-size: 17px;
   margin: 10px 0;
 }
 
@@ -123,5 +123,42 @@
     font-size: 20px;
   }
 }
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #0ef;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #0ef;
+  text-decoration: none;
+  margin: 20px 15px 30px 0;
+  transition: 0.5s;
+}
+.social-media a:hover {
+  background: #0ef;
+  color: #1f242d;
+  box-shadow: 0 0 20px #0ef;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  margin-left: 20px;
+  background: #0ef;
+  border-radius: 40px;
+  font-size: 20px;
+  color: #1f242d;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
+
 
 /*End Home Section */
