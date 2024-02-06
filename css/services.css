@@ -65,6 +65,7 @@ h2:hover::after{
     margin: 20px;
     width: 100%;  
     display: flex;
+    flex-wrap: wrap;
 }
 
 .image{
@@ -72,7 +73,12 @@ h2:hover::after{
    box-shadow:3px 3px 3px 3px rgb(100, 94, 100);
    border-radius: 15px;
     height: 300px;
-    width: 300px;}
+    width: 300px;
+   }
+   .image:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+   }
 
 
 .btn{
