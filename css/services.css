@@ -51,9 +51,11 @@ h2:hover::after{
     transform: scaleX(1);
 }*/
 .box-2{
-    float:left;
+    
     width: 300px;
+    height: max-content;
     margin: 35px;
+    
 
 }
 .box_container{
@@ -79,7 +81,6 @@ h2:hover::after{
     transform: translateY(-15px);
     transition: 0.5s;
    }
-
 
 .btn{
     margin-top:20px;
