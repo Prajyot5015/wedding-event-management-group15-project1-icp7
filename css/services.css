@@ -64,6 +64,7 @@ h2:hover::after{
     padding: 5px;
     margin: 20px;
     width: 100%;  
+    display: flex;
 }
 
 .image{
