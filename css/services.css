@@ -21,41 +21,9 @@ body{
 
 .h2{
     text-transform: uppercase;
-    background-color:rgb(242, 189, 198);
-    
-    
-    
+    color:;
 }
 
-
-/*.h2{
-    width: max-content;
-    font-size: 72px;
-}
-  /*  position: relative;
-    cursor:pointer;
-    margin: 100px auto;
-  }  
-.h2::after{
-    content: "";
-    position: absolute;
-    bottom: 5px;
-    height: 4px;
-    width: 100%;
-    left: 0;
-    transition: 0.3s;
-    transition-timing-function: ease-in-out;
-    transform: scaleX(0);
-}
-h2:hover::after{
-    transform: scaleX(1);
-}*/
-.box-2{
-    float:left;
-    width: 300px;
-    margin: 35px;
-
-}
 .box_container{
     
     background:rgb(242, 189, 198);
