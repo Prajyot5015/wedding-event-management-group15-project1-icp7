@@ -1,4 +1,3 @@
-
 /* Start Header Section */
 
 .header {
@@ -6,7 +5,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 60px;
+  padding: 20px 20px;
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +19,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
   backdrop-filter: blur(50px);
   z-index: -1;
 }
@@ -29,48 +29,40 @@
   text-decoration: none;
   font-weight: 700;
 }
-.logo span {
-  color: #0ef;
-}
-.bxs-heart {
-  color: red;
-  font-size: 30px;
-}
 .navbar a {
-  font-size: 25px;
+  font-size: 30px;
   color: #fff;
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 500;
   margin-left: 20px;
 }
-.navbar a:hover,
-.navbar a.active {
-  color: #0ef;
-}
-
 #check {
   display: none;
 }
-.menu-bar {
-  font-size: 40px;
+.icons {
+  font-size: 20px;
   color: #fff;
   position: absolute;
-  right: 20px;
+  right: 5%;
   cursor: pointer;
   display: none;
 }
-
-@media screen and (max-width: 1005px) {
-  .menu-bar {
-    display: inline-block;
+@media (max-width: 992px) {
+  .header {
+    padding: 15px 5%;
   }
-  #check:checked ~ .menu-bar #menu-icon {
+}
+@media (max-width: 768px) {
+  .icons {
+    display: inline-flex;
+  }
+  #check:checked ~ .icons #menu-icon {
     display: none;
   }
-  .menu-bar #close-icon {
+  .icons #close-icon {
     display: none;
   }
-  #check:checked ~ .menu-bar #close-icon {
+  #check:checked ~ .icons #close-icon {
     display: block;
   }
   .navbar {
@@ -79,19 +71,22 @@
     left: 0;
     width: 100%;
     height: 0;
-    background: rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #f34079 40%, #fc894d);
     backdrop-filter: blur(50px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: 0.3s;
+    transition: .3s ease;
   }
   #check:checked ~ .navbar {
-    height: 400px;
+    height: 17.7rem;
   }
   .navbar a {
     display: block;
-    font-size: 30px;
-    margin: 15px 0;
+    font-size: 20px;
+    margin: 10px 0;
     text-align: center;
+    color: black;
+    
   }
 }
 
@@ -105,7 +100,7 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(./../png/m.jpg) no-repeat;
+  background: url(./../images/bodyBG.jp) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
