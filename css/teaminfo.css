@@ -1,169 +1,161 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Arial", sans-serif;
-    background-color: #f3fcf8;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
 }
 
 .hero {
-    background-color: #ebf9f2;
-    overflow: hidden;
-
+  background-color: #ebf9f2;
+  overflow: hidden;
 }
 
 .heading h1 {
-    color: #ff6347;
-    font-size: 55px;
-    text-align: center;
-    margin-top: 100px;
-
+  color: #ff6347;
+  font-size: 55px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 65px auto;
-    padding: 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 65px auto;
+  padding: 0 100px;
 }
 
 .hero-content {
-    flex: 1;
-    width: 600px;
-    margin: 0px 25px;
-    animation: fadeInUp 2s ease;
-
+  flex: 1;
+  width: 600px;
+  margin: 0px 25px;
+  animation: fadeInUp 2s ease;
 }
 
 .hero-content h2 {
-    font-size: 38px;
-    margin-bottom: 20px;
-    color: #333;
-
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .cta-button {
-    display: inline-block;
-    background-color: #ff4500;
-    color: #fff;
-    padding: 12px 24px;
-    border-radius: 5px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s ease;
+  display: inline-block;
+  background-color: #ff4500;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #ff6347;
-    transform: scale(1.1);
+  background-color: #ff6347;
+  transform: scale(1.1);
 }
 
 .hero-content p {
-    font-size: 24px;
-    line-height: 1.5;
-    margin-bottom: 40px;
-    color: #666;
-
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: #666;
 }
 
 .hero-image {
-    flex: 1;
-    width: 600px;
-    margin: auto;
-    animation: fadeInRight 2s ease;
+  flex: 1;
+  width: 600px;
+  margin: auto;
+  animation: fadeInRight 2s ease;
 }
 
 img {
-    width: 550px;
-    height: auto;
-    border-radius: 10px;
-
+  width: 550px;
+  height: auto;
+  border-radius: 10px;
 }
 
 .our-featurs {
-    font-size: 50px;
-    color: #e67300;
-    text-align: center;
-    margin-top: 50px;
+  font-size: 50px;
+  color: #e67300;
+  text-align: center;
+  margin-top: 90px;
 }
 .featurs-card {
-    width: 300px;
-    padding: 10px;
-    margin: 15px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
-    background-color: #ebf9f2;
-    position: relative;
-    transition: 0.5s;
+  width: 300px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  background-color: #ebf9f2;
+  position: relative;
+  transition: 0.5s;
 }
-.featurs-card:hover{
-    transform: translateY(-15px);
+.featurs-card:hover {
+  transform: translateY(-15px);
 }
-.feature-img{
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
-    height: 300px;
+.feature-img {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 300px;
 }
 
 .feature-titel {
-    text-align: center;
-    color: #e67300;
-    font-size: 20px;
+  text-align: center;
+  color: #e67300;
+  font-size: 20px;
 }
 
 .feature-discription {
-    text-align: center;
-    color: black;
+  text-align: center;
+  color: black;
 }
 
 .feature-continer {
-    display: flex;
-    justify-content: space-around;
-    margin: 50px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+  flex-wrap: wrap;
 }
 
-@media screen and (max-width:768px) {
-    .heading h1 {
-        font-size: 45px;
-        margin-top: 30px;
-    }
+@media screen and (max-width: 768px) {
+  .heading h1 {
+    font-size: 45px;
+    margin-top: 30px;
+  }
 
-    .hero {
-        margin: 0px;
+  .hero {
+    margin: 0px;
+  }
 
-    }
+  .container {
+    width: 100%;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px 40px;
+  }
 
-    .container {
-        width: 100%;
-        flex-direction: column;
-        margin: 0px;
-        padding: 0px 40px;
-    }
+  .hero-conte {
+    width: 100%;
+    margin: 35px 0px;
+  }
 
-    .hero-conte {
-        width: 100%;
-        margin: 35px 0px;
-    }
+  .hero-conte h2 {
+    font-size: 30px;
+  }
 
-    .hero-conte h2 {
-        font-size: 30px;
-    }
+  .hero-conte p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
 
-    .hero-conte p {
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
+  .cta-button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
 
-    .cta-button {
-        font-size: 16px;
-        padding: 8px 16px;
-    }
-
-    .hero-image {
-        width: 100%;
-    }
+  .hero-image {
+    width: 100%;
+  }
 }
