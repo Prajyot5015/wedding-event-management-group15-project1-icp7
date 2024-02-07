@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Style+Script&display=swap');
+
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 *{
     background-color:#f8d5dd ;
@@ -7,7 +7,7 @@
 .decorative-heading{
     font-size: 45px;
     text-align: center;
-    color: rgb(254, 132, 168);
+    color: rgb(252, 52, 112);
     font-family: 'Style Script', cursive;
 }
 .heading{
