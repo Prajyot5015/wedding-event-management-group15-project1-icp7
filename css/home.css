@@ -100,7 +100,7 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(./../images/bodyBG.jp) no-repeat;
+  background: url(./../images/bodyBG.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
