@@ -7,16 +7,12 @@ rgb(21, 12, 104);
  lightgray;
  yellow;
 */
-.heading {
-    margin-left: 600px;
-    background-color: hotpink ;
-    color: black;
-    width: 90px;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
-
-     
+body {
+  background-color: pink;
+}

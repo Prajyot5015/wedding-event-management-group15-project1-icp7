@@ -1,0 +1,173 @@
+/* Start Header Section */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 20px;
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  backdrop-filter: blur(50px);
+  z-index: -1;
+}
+.logo {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+.navbar a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 20px;
+}
+#check {
+  display: none;
+}
+.icons {
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 992px) {
+  .header {
+    padding: 15px 5%;
+  }
+}
+@media (max-width: 768px) {
+  .icons {
+    display: inline-flex;
+  }
+  #check:checked ~ .icons #menu-icon {
+    display: none;
+  }
+  .icons #close-icon {
+    display: none;
+  }
+  #check:checked ~ .icons #close-icon {
+    display: block;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: linear-gradient(135deg, #f34079 40%, #fc894d);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: .3s ease;
+  }
+  #check:checked ~ .navbar {
+    height: 17.7rem;
+  }
+  .navbar a {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+    color: black;
+    
+  }
+}
+
+/*End Header Section */
+
+/*Start Home Section */
+section {
+  padding: 3rem 8%;
+}
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(./../images/bodyBG.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.home .content span {
+  font-size: 3rem;
+  color: red;
+}
+.home .content h3 {
+  font-size: 6rem;
+  width: 60rem;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  padding: 0.8rem 3rem;
+  cursor: pointer;
+  background: none;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.btn:hover {
+  outline: 0;
+  box-shadow: 0 0 10px 3px #e094bf;
+  transition: 0.5s;
+}
+
+/*End Home Section */
+.step-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.step-container .step {
+  background: #fff;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9);
+  text-align: center;
+  flex: 1 1 20rem;
+}
+.step-container .step span {
+  font-size: 7rem;
+  color: red;
+  font-weight: bolder;
+}
+.step-container .step h3 {
+  font-size: 2rem;
+  color: black;
+}
+.step-container .step p {
+  font-size: 1.4rem;
+  color: #666;
+  font-weight: bolder;
+  padding: 1rem 0;
+}
+
+/* step */
+
+/*contact section */
+
+/* start contact section */
