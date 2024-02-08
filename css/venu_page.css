@@ -48,23 +48,27 @@
     padding-top: 15px;
  }
  .button-1 {
-    background-color: #e60073;
-    color: white;
-    position: sticky;
-    padding: 10px 30px;
-    margin-left: 110px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    border: none;
-    border-radius: 10px;
-    font-weight: bolder;
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+  padding: 0.8rem 3rem;
+  cursor: pointer;
+  background: none;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  border-radius: 30px;
+  transition: 0.5s;
+
  }
  .button-1:hover {
-    border: 1px solid black;
-    border-radius: 30px;
-    color: #ffff99;
-    box-shadow: 0 1px 3px 5px #ffff66;
-    transition: 0.5s;
+  outline: 0;
+  box-shadow: 0 0 10px 3px #e094bf;
+  transition: 0.5s;
     
  }
  .cards:hover {
