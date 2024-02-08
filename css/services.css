@@ -1,15 +1,20 @@
 
-/* @media screen and (max-width:600px) {
-    body{
-        background-color: rgb(242, 189, 198);
-    }*/
+  @media screen and (max-width:1000px) 
+  {
+    .box_container{
+        flex-wrap: wrap;
+        justify-content: space-around;   
+    }
     
- 
+}
+
 
 .heading-service{
     text-align: center;
     padding-bottom: 2px;
     text-transform: uppercase;
+    margin-top: 100px;
+    
     
     
 }
@@ -17,16 +22,6 @@
     color:red;
     
 }
-
-
-.h2{
-    text-transform: uppercase;
-    background-color:rgb(242, 189, 198);
-    
-    
-    
-}
-
 
 /*.h2{
     width: max-content;
@@ -51,7 +46,7 @@ h2:hover::after{
     transform: scaleX(1);
 }*/
 .box-2{
-    float:left;
+    
     width: 350px;
     margin: 70px;
     height: 480px;
@@ -62,14 +57,16 @@ h2:hover::after{
 }
 .box_container{
     
-    background:rgb(242, 189, 198);
+   /* background:rgb(242, 189, 198);*/
     border-radius: 5px;
     text-align: center;
-    padding: 5px;
+   padding: 5px;
     margin: 20px;
-    width: 100%;  
+    width: 100%; 
     display: flex;
     flex-wrap: wrap;
+    font-family: "Arial", sans-serif;
+    
 }
 
 .image{
@@ -89,8 +86,8 @@ h2:hover::after{
     margin-top:20px;
     padding: 5px;
     border-radius: 15px;
-    background-color: rgb(2, 64, 85);
-    box-shadow:px px 2px 2px lightgray;
+    background: linear-gradient(135deg, #f34079 40%, #fc894d);
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
     color: white;
 }
 
@@ -99,6 +96,7 @@ h2:hover::after{
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
+    font-size: medium;
     
 }
 .btn:hover{
