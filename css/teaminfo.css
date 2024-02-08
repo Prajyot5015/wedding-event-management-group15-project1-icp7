@@ -3,11 +3,11 @@ body {
     padding: 0px;
     box-sizing: border-box;
     font-family: "Arial", sans-serif;
-    background-color: #f3fcf8;
+    background-color: pink;
 }
 
 .hero {
-    background-color: #ebf9f2;
+    background-color: pink;
     overflow: hidden;
 
 }
