@@ -16,3 +16,152 @@ rgb(21, 12, 104);
 body {
   background-color: pink;
 }
+/* Start Header Section */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 20px;
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  backdrop-filter: blur(50px);
+  z-index: -1;
+}
+.logo {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+.navbar a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 20px;
+}
+#check {
+  display: none;
+}
+.menu-bar {
+  font-size: 50px;
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 1325px) {
+  .menu-bar {
+    display: inline-flex;
+  }
+  #check:checked ~ .menu-bar #menu-icon {
+    display: none;
+  }
+  .menu-bar #close-icon {
+    display: none;
+  }
+  #check:checked ~ .menu-bar #close-icon {
+    display: block;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: linear-gradient(135deg, #f34079 40%, #fc894d);
+    overflow: hidden;
+    transition: .3s ease;
+  }
+  #check:checked ~ .navbar {
+    height: 500px;
+  }
+  .navbar a {
+    display: block;
+    font-size: 35px;
+    margin: 20px 0;
+    text-align: center;   
+  }
+}
+
+/*End Header Section */
+
+/*Start Footer Section */
+
+.footer{
+  margin-top: 30px;
+}
+.team-title h1{
+  font-size: 50px;
+  color: rgb(167, 29, 29);
+  text-align: center;
+  position: relative;
+}
+.team-cards{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+.team-card{
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9);
+  margin: 20px 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+.team-img img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.f-icon{
+  font-size: 40px;
+  margin: 10px 5px;
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+.team-detail h3{
+  color: black;
+  font-size: 30px;
+  margin: 15px 0;
+}
+.team-detail p{
+  color: #666;
+  font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+  .team-cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .team-card{
+    width: 300px;
+    margin: 25px auto;
+  }
+}
+
+/*End Footer Section */
