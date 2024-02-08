@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 .heading {
    text-align: center;
+<<<<<<< HEAD
    margin-top: 30px;
    padding-top: 50px;
+=======
+   margin-top: 60px;
+   padding-top: 30px;
+>>>>>>> e5625c4cbe1ad1e31436770f6844febfe2e558f0
    font-weight: 700;
    font-family: Georgia, 'Times New Roman', Times, serif;
    text-decoration: none;
