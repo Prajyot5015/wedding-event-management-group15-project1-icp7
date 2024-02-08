@@ -2,18 +2,18 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Arial", sans-serif;
-    background-color: pink;
+    font-family: "Arial", sans-serif;  
+    background-color:pink; 
 }
 
 .hero {
-    background-color: pink;
+    background-color:pink; ;
     overflow: hidden;
 
 }
 
 .heading h1 {
-    color: #ff6347;
+    color: rgb(254, 132, 168);
     font-size: 55px;
     text-align: center;
     margin-top: 100px;
@@ -45,19 +45,24 @@ body {
 
 .cta-button {
     display: inline-block;
-    background-color: #ff4500;
-    color: #fff;
-    padding: 12px 24px;
-    border-radius: 5px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s ease;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  padding: 0.8rem 3rem;
+  cursor: pointer;
+  background: none;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  border-radius: 30px;
+  transition: 0.5s;
 }
 
 .cta-button:hover {
-    background-color: #ff6347;
-    transform: scale(1.1);
+    outline: 0;
+    box-shadow: 0 0 10px 3px #e094bf;
+    transition: 0.5s;
 }
 
 .hero-content p {
