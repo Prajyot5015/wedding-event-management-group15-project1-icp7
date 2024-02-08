@@ -52,8 +52,12 @@ h2:hover::after{
 }*/
 .box-2{
     float:left;
-    width: 300px;
-    margin: 35px;
+    width: 350px;
+    margin: 70px;
+    height: 480px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgb(116, 42, 75);
 
 }
 .box_container{
