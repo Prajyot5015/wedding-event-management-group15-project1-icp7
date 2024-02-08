@@ -6,12 +6,17 @@ body{
     
 }
 
+/* @media screen and (max-width:600px) {
+    body{
+        background-color: rgb(242, 189, 198);
+    }*/
+    
+ 
+
 .heading-service{
     text-align: center;
-    padding-bottom: 2px;
-    text-transform: uppercase;
-    
-    
+    /*padding-bottom: 2px;*/
+    text-transform: uppercase;   
 }
 .heading-service span{
     color:red;
@@ -22,6 +27,7 @@ body{
 .h2{
     text-transform: uppercase;
     background-color:rgb(242, 189, 198);
+    
     
     
     
@@ -52,9 +58,14 @@ h2:hover::after{
 }*/
 .box-2{
     
-    width: 300px;
-    height: max-content;
-    margin: 35px;
+    width: 350px;
+    height:480px ;
+    /*height: max-content;*/
+    margin:70px;
+    background-color: rgb(242, 189, 198);
+    border: 2px solid rgb(250, 139, 139);
+    border-radius: 15PX;
+    box-shadow: 3PX 3PX 3PX 3PX;
     
 
 }
@@ -76,6 +87,7 @@ h2:hover::after{
    border-radius: 15px;
     height: 300px;
     width: 300px;
+    margin-top: 20PX;
    }
    .image:hover{
     transform: translateY(-15px);
