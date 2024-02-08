@@ -48,7 +48,7 @@ h2:hover::after{
 .box-2{
     
     width: 350px;
-    margin: 70px;
+    margin: 72px;
     height: 480px;
     border: 1px solid black;
     border-radius: 15px;
@@ -84,7 +84,7 @@ h2:hover::after{
 
 .btn{
     margin-top:20px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 15px;
     background: linear-gradient(135deg, #f34079 40%, #fc894d);
     box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
