@@ -1,25 +1,27 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-*{
-    background-color:#f8d5dd ;
+
+body {
+  background-color: pink;
 }
 
 .decorative-heading{
+    margin-top: 120px;
     font-size: 45px;
     text-align: center;
-    color: rgb(252, 52, 112);
-    font-family: 'Style Script', cursive;
+    color: rgb(0, 0, 0);
+
 }
 .heading{
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
     font-family: 'Style Script';
     font-size: 30px;
-    color: rgb(233, 105, 143);
+    color: rgb(0, 0, 0);
 }
 .tab-background {
-    background-color: pink;
-    color:  rgb(150, 68, 93);
+    background-color: rgb(255, 255, 255);
+    color:  rgb(0, 0, 0);
 
 }
 .abc{
@@ -37,18 +39,18 @@
     width: 200px;
     margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color: #980000;
     border-radius: 20px;
     color: black;
-    background-color: pink;
+    background-color: #ffffff;
 }
 .package:hover{
-    background-color: pink;
+
     box-shadow: 0 0 10px 3px #e094bf;
     transition: 0.5s;
 }
 .price{
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
     animation: blink 2s linear infinite;
     color: rgb(236, 78, 105);
     font-family: 'Anton', sans-serif;;
@@ -124,3 +126,95 @@
     opacity: 0;
   }
 }
+
+
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  padding: 20px 20px;
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  backdrop-filter: blur(50px);
+  z-index: -1;
+}
+.logo {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+.navbar a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 20px;
+}
+#check {
+  display: none;
+}
+.menu-bar {
+  font-size: 50px;
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 1325px){
+  .menu-bar {
+    display: inline-flex;
+  }
+  #check:checked ~ .menu-bar #menu-icon {
+    display: none;
+  }
+  .menu-bar #close-icon {
+    display: none;
+  }
+  #check:checked ~ .menu-bar #close-icon {
+    display: block;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: linear-gradient(135deg, #f34079 40%, #fc894d);
+    overflow: hidden;
+    transition: .3s ease;
+  }
+  #check:checked ~ .navbar {
+    height: 500px;
+  }
+  .navbar a {
+    display: block;
+    font-size: 35px;
+    margin: 20px 0;
+    text-align: center;   
+  }
+}
+
+
+
+
+
+
+
