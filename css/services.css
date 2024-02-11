@@ -12,46 +12,17 @@
 }
 
 .heading-service {
-  font-size: 60px;
+  font-size: 50px;
     text-align: center;
     margin-top: 50px;
-    color: #F14C8F;
+    color: #e6004c;
   margin-bottom: 30px;}
- /* text-align: center;
-  padding-bottom: 2px;
-  text-transform: uppercase;
-  margin-top: 50px;
-  font-family: system-ui, -apple-system, sans-serif;
-  font-size: 2.5rem;
-}
-.heading-service span {
-  color: rgb(255, 0, 89);
-}*/
-
-/*.h2{
-    width: max-content;
-    font-size: 72px;
-}
-  /*  position: relative;
-    cursor:pointer;
-    margin: 100px auto;
-  }  
-.h2::after{
-    content: "";
-    position: absolute;
-    bottom: 5px;
-    height: 4px;
-    width: 100%;
-    left: 0;
-    transition: 0.3s;
-    transition-timing-function: ease-in-out;
-    transform: scaleX(0);*/
 
 h2 {
   margin-top: 15px;
+  color: #e6004c;
 }
 .box-2{
-    
     width:350px;
     margin:30px 20px;
     height: 480px;
@@ -64,7 +35,7 @@ h2 {
 }
 .box_container{
     
-   /* background:rgb(242, 189, 198);*/
+   
     border-radius: 5px;
     text-align: center;
     padding: 5px;
@@ -117,6 +88,7 @@ h2 {
   margin-top: 10px;
   font-size: medium;
   margin-top: 20px;
+  color: #751aff;
 }
 .btn:hover {
   background-color: rgb(244, 5, 45);
