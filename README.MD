@@ -11,7 +11,7 @@ The Wedding Planner Management system is designed to assist wedding planners in 
 
 ## Installation
 
-1.Fork the repository: [Visit repository](https://github.com/Prajyot5015/wedding-event-management-group15-project1-icp7)
+1. Fork the repository: [Visit repository](https://github.com/Prajyot5015/wedding-event-management-group15-project1-icp7)
 2. Clone the repository: git clone https://github.com/Prajyot5015/wedding-event-management-group15-project1-icp7
 3. Open the project directory.
 4. Run index.html in a web browser.
