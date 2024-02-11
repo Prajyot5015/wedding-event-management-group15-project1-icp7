@@ -2,7 +2,8 @@
 @media screen and (max-width: 1000px) {
   .box_container {
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around;}
+    .box-2{
     width: auto;
     margin: auto;
   }
