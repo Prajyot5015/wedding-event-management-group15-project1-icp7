@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 .heading {
    text-align: center;
-   margin-top: 30px;
-   padding-top: 50px;
+   padding-top: 20px;
    font-weight: 700;
    font-family: Georgia, 'Times New Roman', Times, serif;
    text-decoration: none;
@@ -49,8 +48,8 @@
  }
  .button-1 {
   display: inline-block;
-  margin-top: 1rem;
-  font-size: 1.7rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
   padding: 0.8rem 3rem;
   cursor: pointer;
   background: none;
@@ -101,4 +100,5 @@
       background-color:pink; ;
       overflow: hidden;
     }  
+    
     
