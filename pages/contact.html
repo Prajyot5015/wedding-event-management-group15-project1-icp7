@@ -4,24 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Contact Us Page Design using Html CSS</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-    />
-    <!-- Font Awesome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"/>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="./../css/style.css" />
   </head>
   <body>
     <!--Header Section-->
+
     <header class="header">
-      <a href="#" class="logo">&nbsp;Wed<span>Me</span>Good&nbsp;</a>
+      <img src="./../png/3.png" alt="logo" />
       <input type="checkbox" id="check" />
-      <label for="check" class="icons">
+      <label for="check" class="menu-bar">
         <i class="bx bx-menu" id="menu-icon"></i>
         <i class="bx bx-x" id="close-icon"></i>
       </label>
@@ -36,8 +31,9 @@
         <a href="./../pages/contact.html">Contact</a>
       </nav>
     </header>
+
     <!--End Header Section-->
-    <section id="section-wrapper">
+    <section class="contact">
       <h1 class="main-heading">Contact Us</h1>
       <div class="box-wrapper">
         <div class="info-wrap">
@@ -47,34 +43,34 @@
           </h3>
           <ul class="info-details">
             <li>
-              <i class="fas fa-phone-alt"></i>
+              <i class='bx bxs-phone' ></i>
               <span>Phone:</span>
               <a href="tel:+91-7028112938">+91-7028112938</a>
             </li>
             <li>
-              <i class="fas fa-paper-plane"></i>
+              <i class='bx bx-envelope' ></i>
               <span>Email:</span>
               <a href="mailto:wedmegood@gmail.com">wedmegood@gmail.com</a>
             </li>
             <li>
-              <i class="fas fa-globe"></i>
+              <i class='bx bx-globe' ></i>
               <span>Website:</span> <a href="#">wedmegood.com</a>
             </li>
           </ul>
           <ul class="social-icons">
             <li>
-              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class='bx bxl-facebook' ></i></a>
             </li>
             <li>
-              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class='bx bxl-instagram' ></i></a>
             </li>
             <li>
-              <a href="#"><i class="fab fa-google"></i></a>
+              <a href="#"><i class='bx bxl-google'></i></a>
             </li>
           </ul>
         </div>
         <div class="form-wrap">
-          <form action="#" method="POST">
+          <form>
             <h2 class="form-title">Send us a message</h2>
             <div class="form-fields">
               <div class="form-group">
@@ -90,11 +86,7 @@
                 <input type="number" class="phone" placeholder="Phone" />
               </div>
               <div class="form-group">
-                <textarea
-                  name="message"
-                  id=""
-                  placeholder="Write your message"
-                ></textarea>
+                <textarea name="message" placeholder="Write your message" ></textarea>
               </div>
             </div>
             <input type="submit" value="Send Message" class="submit-button" />
@@ -102,5 +94,58 @@
         </div>
       </div>
     </section>
+
+    <!--Start Footer -->
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <h3>Contact Us</h3>
+          <p><i class='bx bxl-gmail'></i> wedding@gmail.com</p>
+          <p><i class="bx bxs-phone"></i> +91-7028112938</p>
+          <p>
+            <i class="bx bxs-map"></i>
+            <a href="https://goo.gl/maps/2v5cX44ZgVjsnx5Y9" target="blank">
+              404, Laxmi Heights, Above Lotus Multi-speciality Hospital Manjari
+              BK,<br /> pune - 412307</a>
+          </p>
+        </div>
+
+        <div class="footer-content">
+          <h3>Quick Links</h3>
+          <ul class="list">
+            <li><a href="./../index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./our_packages.html">Packages</a></li>
+            <li><a href="./venu_page.html">Venue</a></li>
+            <li><a href="./testimonials.html">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3>Follow Us</h3>
+          <ul class="footer-social-icons">
+            <li>
+              <a href=""><i class='bx bxl-facebook' ></i></a>
+            </li>
+            <li>
+              <a href=""><i class='bx bxl-instagram' ></i></a>
+            </li>
+            <li>
+              <a href=""><i class='bx bxl-google' ></i></a>
+            </li>
+            <li>
+              <a href=""><i class='bx bxl-youtube' ></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Made With Love <i class="bx bxs-heart"></i> By Passionate Team</p>
+        <p>Copyright © ICP-7.0 2024</p>
+      </div>
+    </footer>
+
+    <!--End Footer-->
   </body>
 </html>

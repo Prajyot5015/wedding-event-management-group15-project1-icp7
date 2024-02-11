@@ -1,25 +1,27 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-*{
-    background-color:#f8d5dd ;
+
+body {
+  background-color: pink;
 }
 
 .decorative-heading{
+    margin-top: 120px;
     font-size: 45px;
     text-align: center;
-    color: rgb(252, 52, 112);
-    font-family: 'Style Script', cursive;
+    color: rgb(0, 0, 0);
+
 }
 .heading{
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
     font-family: 'Style Script';
     font-size: 30px;
-    color: rgb(233, 105, 143);
+    color: rgb(0, 0, 0);
 }
 .tab-background {
-    background-color: pink;
-    color:  rgb(150, 68, 93);
+    background-color: rgb(255, 255, 255);
+    color:  rgb(0, 0, 0);
 
 }
 .abc{
@@ -37,18 +39,18 @@
     width: 200px;
     margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color: #980000;
     border-radius: 20px;
     color: black;
-    background-color: pink;
+    background-color: #ffffff;
 }
 .package:hover{
-    background-color: pink;
+
     box-shadow: 0 0 10px 3px #e094bf;
     transition: 0.5s;
 }
 .price{
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
     animation: blink 2s linear infinite;
     color: rgb(236, 78, 105);
     font-family: 'Anton', sans-serif;;
@@ -124,3 +126,11 @@
     opacity: 0;
   }
 }
+
+
+
+
+
+
+
+
