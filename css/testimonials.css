@@ -1,110 +1,110 @@
 .website_title{
   margin-top: 100px;
+  text-align: center;
  } 
 
  .parent{
-   height: 450px;  
-   background-color: #ff4d4d;
+  height: 470px;  
+  background-color: #ff4d4d;
  }
   
  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
- .content_heading{
+.content_heading{
    color: white;
    text-align: center;
    padding: 20px; 
    margin-top: 50px;
    font-family: 'Kaushan Script', cursive;
    font-size: 25px;
+  }
+
+
+  .content_info{
+    color: white;
+    padding: 10px;
+    margin-left: 60px;
+    margin-right: 80px;
+    font-size: 20px;
  }
 
- .content_info{
-     color: white;
-     padding: 10px;
-     margin-left: 60px;
-     margin-right: 80px;
-     font-size: 20px;
- }
+ .no_rate{
+  height: 200px;
+  background-color: black;
+  padding-top:20px;
+  margin-top: 30px;
+}
+ 
 
- .no_tags{
-    height: 180px;
-    background-color: black;
-    margin-top:30px;
-   padding-bottom: 15px;
+.no_tags{
+      
+  /*  margin-top:30px;
+    padding-bottom: 15px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
  }
   
  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
- .numbers{
-     color: #4dff4d;
-     font-size: 70px;
-     text-align: center;
-     padding-left: 40px;
-     padding-top: 20px;
-     font-family: 'Dancing Script', cursive;
-   /*  font-family: 'Kaushan Script', cursive; */
- }
+    .numbers{
+        color: #4dff4d;
+        font-size: 70px;
+        font-family: 'Dancing Script', cursive;
+      /*  font-family: 'Kaushan Script', cursive; */
+    }
+
+ .no_description{
+   font-size: 30px;
+   color:white ;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+  }
+  
 
  .no_des{
     color: white;
     font-size: 30px;
     text-align: center;
-     padding-left: 40px;
+     padding-left: 1px;
      padding-top: 20px;
  }
 
  .btn{
-     background-color: #ff4d4d;
-     color: white;
-     border: none;
-     border-radius: 10px;
-     margin-top: 50px ;
-     margin-left: 600px;
-     margin-right: 500px;
-     padding: 10px 15px;
-     font-size: 15px;
- }
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 75px ;
+  margin-left: 600px;
+  margin-right: 500px; 
+  padding: 10px 15px;
+  font-size: 15px;
+}
   
- .couple_info{
-   height: 400px;
-   background-color: #d9d9d9;
-   margin-top: 30px;
-   display: flex;
+.t-card {
+  display: flex;
+}
+
+
+.t-card-content {
+  background: #fff;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9);
+  text-align: center;
+  flex: 1 1 20rem;
+}
+
+
+.img {
+  width: 300px;
+}
+
+.mid_img{
+  height: 200px;
+  width: 300px;
+}
+
+
   
- }
-
- .img_design1{
-   height: 300px;
-   width: 400px;
-   margin: 40px;
- }
-
- .img_heading{
-   font-size: 30px;  
-   margin-left: 20px;
-   margin-right: -40px;
-   margin-top: 35px;
- }
-
- .img_description{
-    margin-bottom: 20px;
- }
- 
- .couple_info2{
-   height: 400px;
-   background-color: #d9d9d9;
-   margin-top: 30px;
-   display: flex;
- }
-
- .img_design2{
-   height: 300px;
-   width: 400px;
-   margin: 40px;
-   margin-left:500px;
-  }
-
-  .img_heading2{
-   font-size: 30px;  
-   margin-right: 700px;
-   margin-top: 35px;
- 
-  }
