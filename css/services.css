@@ -59,7 +59,7 @@ h2 {
    padding: 5px;
     margin: 20px;
     width: 100%; 
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     font-family: "Arial", sans-serif;
     
