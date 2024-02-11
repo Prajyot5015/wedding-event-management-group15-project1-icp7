@@ -33,8 +33,9 @@ body {
   z-index: -1;
 }
 .header img {
-  width: 100px;
+  width: 200px;
   height: 40px;
+  margin-left: 20px;
 }
 
 .navbar a {
@@ -51,7 +52,7 @@ body {
   font-size: 50px;
   color: #fff;
   position: absolute;
-  right: 20px;
+  right: 10px;
   cursor: pointer;
   display: none;
 }
