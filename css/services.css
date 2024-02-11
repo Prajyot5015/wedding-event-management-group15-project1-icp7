@@ -3,7 +3,10 @@
   .box_container {
     flex-wrap: wrap;
     justify-content: space-around;
+    width: auto;
+    margin: auto;
   }
+
 }
 
 .heading-service {
