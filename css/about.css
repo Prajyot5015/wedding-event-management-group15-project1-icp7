@@ -1,53 +1,49 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Arial", sans-serif;  
-    background-color:pink; 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  background-color: pink;
 }
-
+section {
+  padding: 50px 8%;
+}
 .hero {
-    background-color:pink; ;
-    overflow: hidden;
-
+  background-color: pink;
 }
-
 .heading h1 {
-    color: rgb(254, 132, 168);
-    font-size: 55px;
-    text-align: center;
-    margin-top: 30px;
-
+  color: rgb(167, 29, 29);
+  font-size: 55px;
+  text-align: center;
+  margin-top: 20px;
 }
-
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 65px auto;
-    padding: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
 }
-
 .hero-content {
-    flex: 1;
-    width: 600px;
-    margin: 0px 25px;
-    animation: fadeInUp 2s ease;
-
+  flex: 1;
+  width: 600px;
+  margin: 0px 25px;
 }
-
 .hero-content h2 {
-    font-size: 38px;
-    margin-bottom: 20px;
-    color: #333;
-
+  font-size: 38px;
+  margin-bottom: 10px;
+  counter-reset: #333;
 }
-
-.cta-button {
-    display: inline-block;
-  margin-top: 1rem;
-  font-size: 1.7rem;
-  padding: 0.8rem 3rem;
+.hero-content p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: #666;
+}
+.hero-content .btn {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 25px;
+  padding: 12px 40px;
   cursor: pointer;
   background: none;
   text-decoration: none;
@@ -58,121 +54,54 @@ body {
   border-radius: 30px;
   transition: 0.5s;
 }
-
-.cta-button:hover {
-    outline: 0;
-    box-shadow: 0 0 10px 3px #e094bf;
-    transition: 0.5s;
+.hero-content .btn:hover {
+  outline: 0;
+  box-shadow: 0 0 10px 3px #e094bf;
+  transition: 0.5s;
 }
-
-.hero-content p {
-    font-size: 24px;
-    line-height: 1.5;
-    margin-bottom: 40px;
-    color: #666;
-
-}
-
 .hero-image {
-    flex: 1;
-    width: 600px;
-    margin: auto;
-    animation: fadeInRight 2s ease;
+  flex: 1;
+  width: 600px;
+  margin: auto;
 }
-
-img {
-    width: 550px;
-    height: auto;
-    border-radius: 10px;
-
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
-
-.our-featurs {
-    font-size: 50px;
-    color: #e67300;
+@media screen and (max-width: 768px) {
+  .heading h1 {
+    font-size: 45px;
+    margin-top: 20px;
+  }
+  .hero {
+    margin: 10px;
+  }
+  .container {
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px 5px;
+  }
+  .hero-content {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .hero-content h2 {
+    font-size: 30px;
     text-align: center;
-    margin-top: 50px;
+  }
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .hero-content .btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+  .hero-image {
+    width: 100%;
+  }
 }
-.featurs-card {
-    width: 300px;
-    padding: 10px;
-    margin: 15px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
-    background-color: #ebf9f2;
-    position: relative;
-    transition: 0.5s;
-}
-.featurs-card:hover{
-    transform: translateY(-15px);
-}
-.feature-img{
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
-    height: 300px;
-}
-
-.feature-titel {
-    text-align: center;
-    color: #e67300;
-    font-size: 20px;
-}
-
-.feature-discription {
-    text-align: center;
-    color: black;
-}
-
-.feature-continer {
-    display: flex;
-    justify-content: space-around;
-    margin: 50px;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width:768px) {
-    .heading h1 {
-        font-size: 45px;
-        margin-top: 30px;
-    }
-
-    .hero {
-        margin: 0px;
-
-    }
-
-    .container {
-        width: 100%;
-        flex-direction: column;
-        margin: 0px;
-        padding: 0px 40px;
-    }
-
-    .hero-conte {
-        width: 100%;
-        margin: 35px 0px;
-    }
-
-    .hero-conte h2 {
-        font-size: 30px;
-    }
-
-    .hero-conte p {
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
-
-    .cta-button {
-        font-size: 16px;
-        padding: 8px 16px;
-    }
-
-    .hero-image {
-        width: 100%;
-    }
-}
-
 /*Start team */
 section {
   padding: 50px 8%;
@@ -206,7 +135,7 @@ section {
 }
 .team-card:hover {
   transform: translateY(-10px);
-  transition: .5s;
+  transition: 0.5s;
 }
 .team-img img {
   width: 200px;
@@ -243,4 +172,4 @@ section {
   }
 }
 
-      /*End team */
+/*End team */
