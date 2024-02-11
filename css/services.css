@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap");
+
 @media screen and (min-width:601px) and (max-width:768px) {
   .box_container {
     flex-wrap: wrap;
@@ -12,7 +12,7 @@
 }
 @media  screen and (max-width:600px)
 {
-  .heading-service{
+   .heading-service{
     font-size:20px;
     text-align: center;
 
@@ -20,16 +20,25 @@
   .btn{
     font-size: 12px;
   }
+  .box_container{
+    justify-content: center;
+    margin-right:auto
+  }
+  .box-2 p{
+    text-align: center;
+  }
 }
   
 
 
-.heading-service {
+.heading-service
+ {
   font-size: 50px;
     text-align: center;
-    margin-top: 50px;
-    color: #e6004c;
-  margin-bottom: 30px;}
+    margin-top:50px;
+    color:#e6004c;
+  margin-bottom:30px;
+}
 
 h2 {
   margin-top: 15px;
