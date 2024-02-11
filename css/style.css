@@ -1,13 +1,3 @@
-/*
-colors:
-rgb(21, 12, 104);
- rgb(236, 68, 90);
- #fff;
- #000;
- lightgray;
- yellow;
-*/
-
 * {
   margin: 0;
   padding: 0;
@@ -16,14 +6,14 @@ rgb(21, 12, 104);
 body {
   background-color: pink;
 }
-/* Start Header Section */
+      /* Start Header Section */
 
 .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 20px;
+  padding: 10px 10px;
   background: linear-gradient(135deg, #f34079 40%, #fc894d);
   display: flex;
   justify-content: space-between;
@@ -41,14 +31,13 @@ body {
   backdrop-filter: blur(50px);
   z-index: -1;
 }
-.logo {
-  font-size: 30px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
+.header img {
+  width: 100px;
+  height: 40px;
 }
+
 .navbar a {
-  font-size: 30px;
+  font-size: 25px;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
@@ -66,7 +55,7 @@ body {
   display: none;
 }
 
-@media (max-width: 1325px) {
+@media screen and (max-width: 1325px) {
   .menu-bar {
     display: inline-flex;
   }
@@ -87,7 +76,7 @@ body {
     height: 0;
     background: linear-gradient(135deg, #f34079 40%, #fc894d);
     overflow: hidden;
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
   #check:checked ~ .navbar {
     height: 500px;
@@ -96,72 +85,100 @@ body {
     display: block;
     font-size: 35px;
     margin: 20px 0;
-    text-align: center;   
+    text-align: center;
   }
 }
 
-/*End Header Section */
+      /*End Header Section */
 
-/*Start Footer Section */
+      /*Start Footer */
 
-.footer{
-  margin-top: 30px;
-}
-.team-title h1{
-  font-size: 50px;
-  color: rgb(167, 29, 29);
-  text-align: center;
-  position: relative;
-}
-.team-cards{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 20px auto;
-}
-.team-card{
-  background-color: #fff;
-  border-radius: 30px;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9);
-  margin: 20px 20px;
-  padding: 20px;
-  width: 300px;
-  text-align: center;
-}
-.team-img img{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
-}
-.f-icon{
-  font-size: 40px;
-  margin: 10px 5px;
-  background: linear-gradient(135deg, #f34079 40%, #fc894d);
-  color: #fff;
-  border-radius: 50%;
-  padding: 5px;
-}
-.team-detail h3{
-  color: black;
-  font-size: 30px;
-  margin: 15px 0;
-}
-.team-detail p{
-  color: #666;
-  font-size: 30px;
-}
-@media screen and (max-width: 768px) {
-  .team-cards{
-    display: flex;
-    flex-direction: column;
-  }
-  .team-card{
-    width: 300px;
-    margin: 25px auto;
-  }
-}
+      footer {
+        background: #343434;
+        padding-top: 50px;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .footer-container {
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .footer-content h3 {
+        font-size: 28px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #f18930;
+        text-align: center;
+      }
+      .footer-content p {
+        width: 190px;
+        margin: auto;
+        padding: 7px;
+      }
+      .footer-content ul {
+        text-align: center;
+      }
+      .footer-content .list {
+        padding: 0;
+      }
+      .footer-content .list li {
+        width: auto;
+        text-align: center;
+        list-style-type: none;
+        padding: 7px;
+        
+      }
+  
+      .footer-social-icons {
+        text-align: center;
+        padding: 0;
+      }
+      .footer-social-icons li {
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+      }
+      .footer-social-icons i {
+        color: white;
+        font-size: 25px;
+      }
+      .footer-content a {
+        text-decoration: none;
+        color: #fff;
+      }
+      .footer-content a:hover {
+        color: #f18930;
+      }
+      .footer-social-icons i:hover {
+        color: #f18930;
+      }
+      .footer-bottom {
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+      }
+      .footer-bottom p {
+        color: #fff;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+      }
+      .footer-bottom .bxs-heart {
+          color: red;
+          font-size: 20px;
+      }
+      @media  (max-width: 540px) {
+          .footer-container {
+              display: grid;
+              margin: auto;
+          }
+          .footer-content h3 {
+              font-size: 30px;
+              margin-top: 30px;
+          }
+      }
 
-/*End Footer Section */
+      /* End Footer */
+
+      
