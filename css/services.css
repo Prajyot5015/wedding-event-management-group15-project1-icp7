@@ -43,7 +43,7 @@ h2 {
 .box-2{
     
     width: 350px;
-    margin: 72px;
+    margin: 50px;
     height: 480px;
     border: 1px solid black;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9);
@@ -61,6 +61,7 @@ h2 {
     width: 100%; 
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
     font-family: "Arial", sans-serif;
     
 }
