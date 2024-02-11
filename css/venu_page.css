@@ -14,24 +14,24 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 50px;
- 
 
 }
 .img-1 {
-   width: 80%;
-   margin-left: 10%;
+   width: 100%;
    margin-top: 5%;
    height: 200px;
    border-radius: 20px;
     
 }
  .cards {
-    width: 350px;
-    box-shadow: 0 0 2px 2px gray;
-    border-radius: 30px;
-    background-color: #fff0e6;
-    position: relative;
+  background: #fff;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9);
+  text-align: center;
+  flex: 1 1 20rem;
+
  }
 
  .hedding-1 {
@@ -49,9 +49,7 @@
  }
  .button-1 {
   display: inline-block;
-  margin-top: 2rem;
-  margin-left: 4rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
   font-size: 1.7rem;
   padding: 0.8rem 3rem;
   cursor: pointer;
