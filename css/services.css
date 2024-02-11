@@ -52,13 +52,8 @@ h2 {
 }
 .box-2{
     
-<<<<<<< HEAD
     width:350px;
     margin:30px 20px;
-=======
-    width: 350px;
-    margin: 30px 20px;
->>>>>>> 8977d0f621c5b0ee38fabe1ddd6869921b4d5823
     height: 480px;
     border: 1px solid black;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9);
