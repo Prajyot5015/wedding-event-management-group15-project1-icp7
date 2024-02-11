@@ -7,21 +7,25 @@ body {
 }
 
 .decorative-heading{
-    margin-top: 120px;
+    margin-top: 110px;
     font-size: 45px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #e6004c;
+    margin-bottom: 20px;
 
 }
 .heading{
     background-color: rgb(255, 255, 255);
     font-family: 'Style Script';
-    font-size: 30px;
-    color: rgb(0, 0, 0);
+    font-size: 35px;
+    color: rgb(220, 55, 115);
+    margin-bottom: 20px;
 }
 .tab-background {
     background-color: rgb(255, 255, 255);
     color:  rgb(0, 0, 0);
+    margin: 3px;
+    font-size: 20px;
 
 }
 .abc{
@@ -30,13 +34,15 @@ body {
 .package-card{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;
     
 }
 .package {
     text-align: center;
     border: 2px solid #f3c1c6; 
     padding: 20px;
-    width: 280px;
+    width: 290px;
+    height: 450px;
     margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #980000;
@@ -53,7 +59,8 @@ body {
     background-color: rgb(255, 255, 255);
     animation: blink 2s linear infinite;
     color: rgb(236, 78, 105);
-    font-family: 'Anton', sans-serif;;
+    font-family: 'Anton', sans-serif;
+    margin-top: 30px;
 }
 @keyframes blink{
   50%{
@@ -86,6 +93,7 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-top: 25px;
 }
 
 .button-75:active {
