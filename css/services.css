@@ -40,21 +40,30 @@
 h2 {
   margin-top: 10px;
 }
-.box-2 {
-    background: #fff;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.9);
-    text-align: center;
-    flex: 1 1 320px;
+.box-2{
+    
+    width: 350px;
+    margin: 60px;
+    height: 480px;
+    border: 1px solid black;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9);
+    background-color: #fff;
+    border-radius: 0.5rem;
+
 }
-.box_container {
-  /* background:rgb(242, 189, 198);*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+.box_container{
+    
+   /* background:rgb(242, 189, 198);*/
+    border-radius: 5px;
+    text-align: center;
+   padding: 5px;
+    margin: 20px;
+    width: 100%; 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Arial", sans-serif;
+    
 }
 
 .image {
