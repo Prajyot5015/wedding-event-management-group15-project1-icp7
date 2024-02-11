@@ -192,6 +192,7 @@ section {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 20px auto;
+  padding: 50px 10px;
 }
 .team-card {
   background-color: #fff;
