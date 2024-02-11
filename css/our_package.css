@@ -1,65 +1,77 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body {
   background-color: pink;
 }
 
-.decorative-heading{
-    margin-top: 120px;
-    font-size: 45px;
-    text-align: center;
-    color: rgb(0, 0, 0);
+.decorative-heading {
+  margin-top: 110px;
+  font-size: 45px;
+  text-align: center;
+  color: #e6004c;
+  margin-bottom: 20px;
+}
 
+.heading {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Style Script';
+  font-size: 35px;
+  color: rgb(220, 55, 115);
+  margin-bottom: 20px;
 }
-.heading{
-    background-color: rgb(255, 255, 255);
-    font-family: 'Style Script';
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-}
+
 .tab-background {
-    background-color: rgb(255, 255, 255);
-    color:  rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin: 3px;
+  font-size: 20px;
+}
 
+.abc {
+  background-color: pink;
 }
-.abc{
-    background-color: pink;
+
+.package-card {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+  margin-bottom: 40px;
 }
-.package-card{
-    display: flex;
-    justify-content: space-around;
-    
-}
+
 .package {
-    text-align: center;
-    border: 2px solid #f3c1c6; 
-    padding: 20px;
-    width: 280px;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #980000;
-    border-radius: 20px;
-    color: black;
-    background-color: #ffffff;
+  text-align: center;
+  border: 2px solid #f3c1c6;
+  padding: 20px;
+  width: 290px;
+  height: 450px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #980000;
+  border-radius: 20px;
+  color: black;
+  background-color: #ffffff;
 }
-.package:hover{
 
-    box-shadow: 0 0 10px 3px #e094bf;
-    transition: 0.5s;
+.package:hover {
+  box-shadow: 0 0 10px 3px #e094bf;
+  transition: 0.5s;
+  margin-top: 1px;
 }
-.price{
-    background-color: rgb(255, 255, 255);
-    animation: blink 2s linear infinite;
-    color: rgb(236, 78, 105);
-    font-family: 'Anton', sans-serif;;
+
+.price {
+  background-color: rgb(255, 255, 255);
+  animation: blink 2s linear infinite;
+  color: rgb(236, 78, 105);
+  font-family: 'Anton', sans-serif;
+  margin-top: 30px;
 }
-@keyframes blink{
-  50%{
+
+@keyframes blink {
+  50% {
     opacity: 0;
   }
 }
+
 .button-75 {
   align-items: center;
   background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
@@ -70,7 +82,7 @@ body {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  font-family: "Codec cold",sans-serif;
+  font-family: "Codec cold", sans-serif;
   font-size: 12px;
   font-weight: 700;
   height: 54px;
@@ -86,6 +98,7 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-top: 25px;
 }
 
 .button-75:active {
@@ -116,21 +129,19 @@ body {
   .button-75 span {
     line-height: 50px;
   }
-}
-.blink{
-  animation: blink 2s linear infinite;
-  color: blueviolet;
-}
-@keyframes bkink{
-  50%{
-    opacity: 0;
+
+  .package {
+    width: 100%; /* Adjust package width for smaller screens */
   }
 }
 
+.blink {
+  animation: blink 2s linear infinite;
+  color: blueviolet;
+}
 
-
-
-
-
-
-
+@keyframes bkink {
+  50% {
+    opacity: 0;
+  }
+}

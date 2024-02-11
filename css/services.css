@@ -1,62 +1,66 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap");
-@media screen and (max-width: 1000px) {
+
+@media screen and (min-width:601px) and (max-width:768px) {
   .box_container {
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around;}
+    .box-2
+    {
+      margin: auto;
+      width: auto;
+    }
+
+}
+@media  screen and (max-width:600px)
+{
+   .heading-service{
+    font-size:20px;
+    text-align: center;
+
+  }
+  .btn{
+    font-size: 12px;
+  }
+  .box_container{
+    justify-content: center;
+    margin-right:auto
+  }
+  .box-2 p{
+    text-align: center;
   }
 }
+  
 
-.heading-service {
-  text-align: center;
-  padding-bottom: 2px;
-  text-transform: uppercase;
-  margin-top: 50px;
-  font-family: system-ui, -apple-system, sans-serif;
-  font-size: 2.5rem;
-}
-.heading-service span {
-  color: rgb(255, 0, 89);
-}
 
-/*.h2{
-    width: max-content;
-    font-size: 72px;
+.heading-service
+ {
+  font-size: 50px;
+    text-align: center;
+    margin-top:50px;
+    color:#e6004c;
+  margin-bottom:30px;
 }
-  /*  position: relative;
-    cursor:pointer;
-    margin: 100px auto;
-  }  
-.h2::after{
-    content: "";
-    position: absolute;
-    bottom: 5px;
-    height: 4px;
-    width: 100%;
-    left: 0;
-    transition: 0.3s;
-    transition-timing-function: ease-in-out;
-    transform: scaleX(0);*/
 
 h2 {
-  margin-top: 10px;
+  margin-top: 15px;
+  color: #e6004c;
 }
 .box-2{
-    
-    width: 350px;
-    margin: 60px;
+    width:350px;
+    margin:30px 20px;
     height: 480px;
     border: 1px solid black;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9);
     background-color: #fff;
     border-radius: 0.5rem;
+    margin-top: 20px;
 
 }
 .box_container{
     
-   /* background:rgb(242, 189, 198);*/
+   
     border-radius: 5px;
     text-align: center;
-   padding: 5px;
+    padding: 5px;
     margin: 20px;
     width: 100%; 
     display:flex;
@@ -69,9 +73,9 @@ h2 {
 .image {
   box-shadow: 3px 3px 3px 3px rgb(100, 94, 100);
   border-radius: 15px;
-  height: 300px;
-  width: 300px;
-  margin-top: 20px;
+  height: 250px;
+  width: 250px;
+  margin-top: 40px;
 }
 .image:hover {
   transform: translateY(-15px);
@@ -79,12 +83,24 @@ h2 {
 }
 
 .btn {
-  margin-top: 20px;
-  padding: 10px;
-  border-radius: 30px;
+  display: inline-block;
+  margin-top: 25px;
+  font-size: 15px;
+  padding: 12px 20px;
+  cursor: pointer;
+  background: none;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
   background: linear-gradient(135deg, #f34079 40%, #fc894d);
   box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
-  color: white;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.btn:hover {
+  outline: 0;
+  box-shadow: 0 0 10px 3px #e094bf;
+  transition: 0.5s;
 }
 
 .box-2 p {
@@ -93,6 +109,8 @@ h2 {
   font-size: 20px;
   margin-top: 10px;
   font-size: medium;
+  margin-top: 20px;
+  color: #751aff;
 }
 .btn:hover {
   background-color: rgb(244, 5, 45);
