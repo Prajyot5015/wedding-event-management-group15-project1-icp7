@@ -115,7 +115,7 @@
  }
  @media screen and (max-width: 1000px) {
    .t-container {
-     height: 150vh;
+     height: 140vh;
    }
    .upper p {
      font-size: 20px;
