@@ -2,6 +2,7 @@
  .t-card{
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: auto;
 }
 
  .t-card-content{
@@ -19,7 +20,7 @@
 
   .t-card{
     justify-content: center;
-   /* margin-right:auto; */
+    /* margin-right:auto; */
   }
   .t-card-content p{
     text-align: center;
@@ -35,6 +36,7 @@
  .t-card{
    flex-wrap: wrap;
    justify-content: space-around;
+   
  }
 
  .t-card-content{
