@@ -5,7 +5,7 @@ body {
 }
 
 .decorative-heading {
-  margin-top: 110px;
+  margin-top: 100px;
   font-size: 45px;
   text-align: center;
   color: #e6004c;
@@ -14,7 +14,6 @@ body {
 
 .heading {
   background-color: rgb(255, 255, 255);
-  font-family: 'Style Script';
   font-size: 35px;
   color: rgb(220, 55, 115);
   margin-bottom: 20px;
@@ -22,7 +21,7 @@ body {
 
 .tab-background {
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  color:  #666;
   margin: 3px;
   font-size: 20px;
 }
